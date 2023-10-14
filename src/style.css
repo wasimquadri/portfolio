@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+   color: grey;
+}
+.company{
+    font-weight: 50px;
+    font-size: larger;
+    margin: 20px;
+}
+#bt{
+    font-weight: unset;
+}
