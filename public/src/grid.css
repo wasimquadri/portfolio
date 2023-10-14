@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    color: rgb(158, 48, 103);
+}
+.cont{
+    width: 490px;
+    border: 1px solid rgb(13, 1, 13);
+    text-align: center;
+    margin: 50px auto;/*bring it center*/
+    display: grid;
+    grid-column-gap: 1px;
+    grid-row-gap: 2px;
+    grid-auto-rows: 60px;
+    justify-content: center;
+    
+    /*grid-gap: 10px;----alternate use*/
+    grid-template-rows: 60px;
+    /*grid-template-rows:repeat(2,100px)----alternate use*/
+     grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px;/*can use 1fr also*/
+    /*grid-template-columns: repeat(auto-fit,minmax(100px,1fr));-- to make responsive*/
+    /*grid-template-columns:repeat(3,100px)----alternate use*/
+}
+.box-1{
+    background-color:white;
+}
+.box-2{
+  /*  grid-column: 1/-1;*/
+    background-color: black;
+}
+.box-3{background-color:white;}
+.box-4{
+    background-color: black;
+}
+.box-5{
+    background-color:white;
+  /* grid-row-start: 1;--for ressamble
+   grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row: 2/2;
+    grid-row:1/2;---alternate mathod
+    grid-column:2/3; */
+    
+}
+.box-6{background-color: black;}
+.box-7{background-color:white;}
+.box-8{background-color: black;}
+.box-9{background-color: black;}
+.box-10{background-color:white;}
+.box-11{background-color: black;}
+.box-12{background-color:white;}
+.box-13{background-color: black;}
+.box-14{background-color:white;}
+.box-15{background-color: black;}
+.box-16{background-color:white;}
+.box-17{background-color: white;}
+.box-18{background-color:black;}
+.box-19{background-color:white;}
+.box-20{background-color: rgb(12, 12, 12);}
+.box-21{background-color:white;}
+.box-22{background-color: black;}
+.box-23{background-color:white;}
+.box-24{background-color: black;}
+.box-25{background-color:black;}
+.box-26{background-color: white;}
+.box-27{background-color:black;}
+.box-28{background-color: white;}
+.box-29{background-color:black;}
+.box-30{background-color: white;}
+.box-31{background-color:black;}
+.box-32{background-color: white;}
+.box-33{background-color:white;}
+.box-34{background-color: black;}
+.box-35{background-color:white;}
+.box-36{background-color: black;}
+.box-37{background-color:white;}
+.box-38{background-color: black;}
+.box-39{background-color:white;}
+.box-40{background-color: black;}
+.box-41{background-color:black;}
+.box-42{background-color: white;}
+.box-43{background-color:black;}
+.box-44{background-color: white;}
+.box-45{background-color:black;}
+.box-46{background-color: white;}
+.box-47{background-color:black;}
+.box-48{background-color: white;}
+.box-49{background-color:white;}
+.box-50{background-color: black;}
+.box-51{background-color:white;}
+.box-52{background-color: black;}
+.box-53{background-color:white;}
+.box-54{background-color: black;}
+.box-55{background-color:white;}
+.box-56{background-color: black;}
+.box-57{background-color:black;}
+.box-58{background-color: white;}
+.box-59{background-color:black;}
+.box-60{background-color: white;}
+.box-61{background-color:black;}
+.box-62{background-color: white;}
+.box-63{background-color:black;}
+.box-64{background-color: white;}
+
+
+
+
+
+
+
+
+
+
