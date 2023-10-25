@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* justify-content: center;
+    align-items: center;
+    height: 500px; */
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#locationInput {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #2980b9;
+}
+
+.weather {
+    text-align: center;
+}
